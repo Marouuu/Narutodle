@@ -1,5 +1,6 @@
 import konoha from './public/images/NarudleLogo.png';
 import './App.css';
+import SearchBar from './components/searchBar';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
 
         <img src={konoha} alt='Konoha' />
       </div>
+      <SearchBar/>
    </div>
   );
 }
